@@ -29,6 +29,6 @@ export default function App() {
 
   return (
     
-      <GlobalView coords={location.coords}  />
+      location && <GlobalView coords={location.coords}  />
   );
 }
